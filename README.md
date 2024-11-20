@@ -41,8 +41,11 @@ python -m venv venv
 
 ## Training the model
       python train_model.py
+
+## Prediction of an image
+      python predict_image.py
 ```
-#### For macOS/Linux
+#### For macOS/Linux:
 ```bash
 # Navigate to the project directory
 cd path/to/your/project/folder
@@ -58,6 +61,9 @@ source venv/bin/activate
 
 ## Training the model
       python train_model.py
+
+## Prediction of an image
+      python predict_image.py
 ```
 The API will be available locally at http://127.0.0.1:8000. You can interact with it by sending requests.
 
